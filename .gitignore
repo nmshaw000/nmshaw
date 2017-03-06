@@ -3,4 +3,3 @@ output
 plugins/i18n_subsites
 *.pyc
 theme/static/css/style.css
-theme/styling/_normalize500.scss

@@ -28,8 +28,6 @@ download:
 	mkdir -p $(I18N_SUBSITES_DIR)
 	wget -P $(I18N_SUBSITES_DIR) https://raw.githubusercontent.com/getpelican/pelican-plugins/master/i18n_subsites/__init__.py
 	wget -P $(I18N_SUBSITES_DIR) https://raw.githubusercontent.com/getpelican/pelican-plugins/master/i18n_subsites/i18n_subsites.py
-	@echo "download normalize.css ..."
-	wget -O $(SCSSDIR)/_normalize500.scss https://necolas.github.io/normalize.css/5.0.0/normalize.css
 
 scss:
 	[ -d $(CSSDIR) ] || mkdir -p $(CSSDIR)

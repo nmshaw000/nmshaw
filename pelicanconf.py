@@ -32,12 +32,6 @@ PATH_METADATA = 'articles/(?P<date>\d{4}/\d{2}/\d{2})/(?P<slug>[-a-zA-Z0-9.]*)%(
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
-# other possible PATH and URL config
-#PATH_METADATA = 'articles[-a-zA-Z0-9/]*/(?P<slug>[-a-zA-Z0-9]*)%(?P<lang>[_a-zA-Z]{2,5})\.rst'
-#PATH_METADATA = 'articles/(?P<urlpath>[-a-zA-Z0-9/]*)/(?P<slug>[-a-zA-Z0-9]*)%(?P<lang>[_a-zA-Z]{2,5})\.rst'
-#ARTICLE_URL = '{urlpath}/{slug}/'
-#ARTICLE_SAVE_AS = '{urlpath}/{slug}/index.html'
-
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -46,10 +40,6 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = False
-
-# https://github.com/getpelican/pelican/issues/1513
-# {tag}tagName syntax not working now
-# Update: 3.6.3 looks working now
 
 THEME = 'theme'
 
@@ -70,7 +60,7 @@ I18N_SUBSITES = {
     'AUTHOR': 'Heiu-Jou Shaw',
     'LOCALE': 'en_US.UTF-8',
     'META_KEYWORDS': 'Heiu-Jou Shaw',
-    'META_DESCRIPTION': 'Heiu-Jou Shaw Personal Website',
+    'META_DESCRIPTION': 'Professor Heiu-Jou Shaw Personal Website',
   },
 }
 I18N_UNTRANSLATED_ARTICLES = 'remove'
