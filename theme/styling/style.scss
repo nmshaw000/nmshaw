@@ -1,0 +1,7 @@
+$screen-mobile: 768;
+
+@media screen and (max-width: #{$screen-mobile}px) {
+  #menu-toggle:checked + .nav-menu {
+    display: block;
+  }
+}
