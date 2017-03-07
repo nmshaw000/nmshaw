@@ -5,6 +5,7 @@ PELICANOPTS=
 BASEDIR=$(CURDIR)
 THEMEDIR=$(BASEDIR)/theme
 CSSDIR=$(THEMEDIR)/static/css
+JSDIR=$(THEMEDIR)/static/js
 SCSSDIR=$(THEMEDIR)/styling
 INPUTDIR=$(BASEDIR)/content
 CACHEDIR=$(BASEDIR)/cache
@@ -33,7 +34,11 @@ scss:
 	[ -d $(CSSDIR) ] || mkdir -p $(CSSDIR)
 	$(PY) -mscss < $(SCSSDIR)/style.scss -I $(SCSSDIR) -o $(CSSDIR)/style.css
 
-html: scss
+js:
+	[ -d $(JSDIR) ] || mkdir -p $(JSDIR)
+	cp theme/javascript/app.js $(JSDIR)/app.js
+
+html: scss js
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
