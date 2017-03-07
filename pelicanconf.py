@@ -86,7 +86,11 @@ def hidden_pages_get_page_with_slug_index(hidden_pages):
 # custom Jinja2 filter for localizing theme
 def gettext(string, lang):
     if lang == "en":
-        return string
+        if string == "邵揮洲": return "Heiu-Jou Shaw"
+        elif string == "教授": return "Professor"
+        elif string == "系統及船舶機電工程學系": return "Systems and Naval Mechatronic Engineering"
+        elif string == "成功大學": return "National Cheng Kung University"
+        else: return string
     elif lang == "zh":
         if string == "Archives": return "歸檔"
         elif string == "Categories": return "分類"

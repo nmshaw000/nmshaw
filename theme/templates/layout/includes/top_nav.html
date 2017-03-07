@@ -12,8 +12,8 @@
         <a class="nav-item" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
       {%- endfor -%}
       {% endif %}
-      <a class="nav-item" href="{{ SITEURL }}/{{ ARCHIVES_URL | default('archives.html') }}">{{ 'Archives'|gettext(DEFAULT_LANG) }}</a>
 <!--
+      <a class="nav-item" href="{{ SITEURL }}/{{ ARCHIVES_URL | default('archives.html') }}">{{ 'Archives'|gettext(DEFAULT_LANG) }}</a>
       <a class="nav-item" href="{{ SITEURL }}/{{ CATEGORIES_URL | default('categories.html') }}">{{ 'Categories'|gettext(DEFAULT_LANG) }}</a>
       <a class="nav-item" href="{{ SITEURL }}/{{ TAGS_URL | default('tags.html') }}">{{ 'Tags'|gettext(DEFAULT_LANG) }}</a>
       <a class="nav-item" href="{{ SITEURL }}/{{ AUTHORS_URL | default('authors.html') }}">{{ 'Authors'|gettext(DEFAULT_LANG) }}</a>

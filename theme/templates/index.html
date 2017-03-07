@@ -1,4 +1,20 @@
 {% extends "layout/layout.html" %}
 {% block content %}
-{% include "layout/includes/list_articles.html" %}
+{#% include "layout/includes/list_articles.html" %#}
+
+<section class="hero is-success content is-large">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        {{ '邵揮洲'|gettext(DEFAULT_LANG) }}
+      </h1>
+      <h2 class="subtitle">
+        {{ '教授'|gettext(DEFAULT_LANG) }}，
+        {{ '系統及船舶機電工程學系'|gettext(DEFAULT_LANG) }}，
+        {{ '成功大學'|gettext(DEFAULT_LANG) }}
+      </h2>
+    </div>
+  </div>
+</section>
+
 {% endblock %}

@@ -20,11 +20,7 @@
 {% include 'layout/includes/top_nav.html' %}
 {% if GOOGLE_CSE %}<gcse:search></gcse:search>{% endif %}
 
-<section class="section">
-  <div class="container">
-    {%- block content -%}{%- endblock -%}
-  </div>
-</section>
+{%- block content -%}{%- endblock -%}
 
 {% include 'layout/includes/footer.html' %}
 {% include 'layout/includes/cse.html' %}
