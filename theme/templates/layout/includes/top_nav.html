@@ -7,6 +7,21 @@
     </div>
 
     <div class="nav-center">
+      <a class="nav-item">
+        <span class="icon">
+          <i class="fa fa-github"></i>
+        </span>
+      </a>
+      <a class="nav-item">
+        <span class="icon">
+          <i class="fa fa-facebook"></i>
+        </span>
+      </a>
+      <a class="nav-item" href="mailto:nmshaw@mail.ncku.edu.tw">
+        <span class="icon">
+          <i class="fa fa-envelope"></i>
+        </span>
+      </a>
       {% if DISPLAY_PAGES_ON_MENU %}
       {%- for p in pages -%}
         <a class="nav-item" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
