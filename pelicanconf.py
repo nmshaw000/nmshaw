@@ -56,7 +56,7 @@ META_DESCRIPTION = '邵揮洲 教授 個人網站'
 # mapping: language_code -> settings_overrides_dict
 I18N_SUBSITES = {
   'en': {
-    'SITENAME': 'Heiu-Jou Shaw',
+    'SITENAME': 'H.J. Shaw',
     'AUTHOR': 'Heiu-Jou Shaw',
     'LOCALE': 'en_US.UTF-8',
     'META_KEYWORDS': 'Heiu-Jou Shaw',
