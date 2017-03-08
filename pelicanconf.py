@@ -92,6 +92,9 @@ def gettext(string, lang):
         elif string == "成功大學": return "National Cheng Kung University"
         elif string == "http://w3.sname.ncku.edu.tw/main.php": return "http://w3.sname.ncku.edu.tw/main.php?site_id=2"
         elif string == "https://www.google.com/search?q=%E9%82%B5%E6%8F%AE%E6%B4%B2": return "https://www.google.com/search?q=Heiu-Jou+Shaw"
+        elif string == "簡介": return "Introduction"
+        elif string == "學歷": return "Education"
+        elif string == "代表著作": return "Selected Publication"
         #elif string == "": return ""
         else: return string
     elif lang == "zh":
