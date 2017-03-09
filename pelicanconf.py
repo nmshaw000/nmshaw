@@ -95,6 +95,7 @@ def gettext(string, lang):
         elif string == "簡介": return "Introduction"
         elif string == "學歷": return "Education"
         elif string == "代表著作": return "Selected Publication"
+        elif string == "榮譽與獎勵": return "Honor & Reward"
         #elif string == "": return ""
         else: return string
     elif lang == "zh":

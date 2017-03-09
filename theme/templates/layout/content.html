@@ -32,27 +32,34 @@
 {%- if content.summary -%}{% set OG_DESCRIPTION = (content.summary|striptags) %}{%- endif -%}
 
 {% block content %}
-<main role="main" class="{{ content_css_class }}">
-  <article>
-    <header>
-      <h1>
+<section class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
         <a href="{{ SITEURL }}/{{ content.url }}"
            rel="bookmark"
            title="Permalink to {{ content.title|striptags }}">
           {{ content.title }}
         </a>
       </h1>
-    </header>
+      <h2 class="subtitle">
+        {{ content.summary }}
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="main-content-section">
+  <div class="container content">
     {% block article_time %}{% endblock %}
     <aside>
       {{- translations_for(content, SITEURL) -}}
       {%- if content.github_url -%}
-        <div class="edit-on-github"><a href="{{ content.github_url }}">{{ 'Edit on Github'|gettext(DEFAULT_LANG) }}</a></div>
+        <div class="is-pulled-right"><a href="{{ content.github_url }}">{{ 'Edit on Github'|gettext(DEFAULT_LANG) }}</a></div>
       {%- endif -%}
     </aside>
     <hr>
     <div class="main-content">{{ content.content }}</div>
     <footer>{% block article_metadata %}{% endblock %}</footer>
-  </article>
-</main>
+  </div>
+</section>
 {% endblock %}

@@ -1,4 +1,4 @@
-<nav class="nav">
+<nav class="nav top-nav">
   <div class="container">
     <div class="nav-left">
       <a class="nav-item" href="{{ SITEURL }}/">
@@ -43,6 +43,7 @@
     <input type="checkbox" id="menu-toggle" class="is-hidden" />
 
     <div class="nav-right nav-menu">
+      <a class="nav-item is-hidden-tablet" href="{{SITEURL}}/personal/honor-and-reward/">{{ '榮譽與獎勵'|gettext(DEFAULT_LANG) }}</a>
       {% if lang_siteurls %}
         {% for lang, url in lang_siteurls.items() %}
         <a class="nav-item" href="{{ url }}/">{{ lang_code2name(lang) }}</a>
