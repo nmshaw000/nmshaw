@@ -10,7 +10,7 @@
 {% macro translations_for(writing, SITEURL) -%}
   {%- if writing.translations -%}
     <div class="is-pulled-left">
-      <span>{{- 'Translation(s)'|gettext(writing.lang) -}}</span>:&nbsp;
+      <span>{{- 'Translation'|gettext(writing.lang) -}}</span>:&nbsp;
       {%- for translation in writing.translations -%}
         <a href="{{ SITEURL }}/{{ translation.url }}">{{ lang_code2name(translation.lang) }}</a>&nbsp;
       {%- endfor -%}

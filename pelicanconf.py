@@ -106,7 +106,7 @@ def gettext(string, lang):
         elif string == "Author": return "作者"
         elif string == "Tags": return "標籤"
         elif string == "Updated": return "更新"
-        elif string == "Translation(s)": return "翻譯"
+        elif string == "Translation": return "翻譯"
         elif string == "Edit on Github": return "在Github上編輯"
         else: return string
     else:
