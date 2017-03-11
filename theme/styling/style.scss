@@ -15,3 +15,12 @@ $screen-mobile: 768;
 .top-nav {
   background-color: mintcream;
 }
+
+@media screen {
+  body {
+    background-color: #c7edcc;
+  }
+  section.section {
+    background-color: #c7edcc;
+  }
+}
