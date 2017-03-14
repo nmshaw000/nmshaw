@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # no trailing /
-SITEURL = 'https://siongui.github.io/nmshaw'
+SITEURL = 'https://nmshaw000.github.io'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = None
