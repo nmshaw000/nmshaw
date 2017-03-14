@@ -72,7 +72,7 @@ I18N_UNTRANSLATED_ARTICLES = 'remove'
 PAGE_ORDER_BY = 'order'
 
 # CONTENT_DIR_URL is the setting for edit_on_github plugin
-CONTENT_DIR_URL = u'https://github.com/USERNAME/REPO/tree/master/content'
+CONTENT_DIR_URL = u'https://github.com/nmshaw000/nmshaw/tree/master/content'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
