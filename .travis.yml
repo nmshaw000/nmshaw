@@ -1,0 +1,34 @@
+sudo: required
+dist: trusty
+language: python
+python:
+- '2.7'
+branches:
+  only:
+  - master
+addons:
+  apt:
+    packages:
+    - language-pack-en
+    - language-pack-zh-hant
+install:
+- pip install -r requirements.txt
+- make download
+script:
+- make publish
+after_success:
+- git config --global user.email "travis@travis-ci.org"
+- git config --global user.name "Travis"
+- git config --global push.default simple
+- echo "Clone nmshaw000.github.io..."
+- git clone --depth 1 https://${GH_TOKEN}@github.com/nmshaw000/nmshaw000.github.io.git > /dev/null
+- cd nmshaw000.github.io
+- git rm -rf * > /dev/null
+- cp -r  ../output/* .
+- git add .
+- git status
+- git commit -m "Pushed by Travis CI"
+- git push --quiet
+env:
+  global:
+    secure: iFXmQgINGcF8bD4y3c943R24KL1AtB/Rv74V/kuvJMibLqRXHL9Jmp9h7QAjo2zllyfW0eyJ4+YsYiclTE2zug53Ix8zyzoMeuNdJOeuUEhO6iSSnPzpQMQUrmQ3OuZCgVAsEZ+kCKv7sp2vj5GQWmXxJ35RoUnQmmHsVkOyOEOHxwNDv2wGDoyYLELHDocPb2V8TmFXrecRTpE6U6kH/6bITiLn2se9NCALTSOBtpvPQCBycAujM1QL6TGJmFqwRrmpjJpHpC7GK0CdjcKdMJ2ZmCrLp9+fN+4u8otD6hG57h3mmP1aOhDH84fApYnMLALWNd8QSwLInnb/3O5Z8w/P4E7AkqLKR2O6Hr2JwLTcrpf64lvbJrrA7fMxOUrpxKdigAjyFfANGXSXhkHxTw8B3sqHr3+BgkbwFXbrZMqVP54AOYLgH9amrjoEhqR8MII2vksPwwt3LKI4EOOfJ7jJrxZJq7Hl+0sy2N9Stw3g20Zj6uTmthKWRt+68RZQ6KBLfn0e1N6feHMt3spHfMsS3b27ttrtcjz3D44jvF1WSAt3jXLrjSUCkipPU/saQ3Pt7T3or+CMTkB3eVwuAcZaBk0ZoiSKRPYTFrR49yNHMA1Bq7hw1XOJhvhgcZxSUxev/Fc06In423OifhjeC5+P7d3+MQDp/KL8zZ5orBk=
