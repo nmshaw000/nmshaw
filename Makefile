@@ -52,7 +52,7 @@ else
 	cd $(OUTPUTDIR) && $(PY) -m pelican.server
 endif
 
-publish: scss clean
+publish: scss js clean
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 github_project_page:
