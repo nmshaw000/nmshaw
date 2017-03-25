@@ -46,6 +46,15 @@ Shaw, Heiu-Jou (邵揮洲) Professor Personal Website
      $ git config --global user.name "nmshaw000"
      $ git config --global user.email "nmshaw@mail.ncku.edu.tw"
 
+   或
+
+   .. code-block:: bash
+
+     $ git config --global user.name "NFChen"
+     $ git config --global user.email "an94.design@gmail.com"
+
+   請依照自己的帳號及email做設定。
+
 4. 安裝 pip_ [2]_ ：
 
    .. code-block:: bash
