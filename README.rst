@@ -82,7 +82,14 @@ Shaw, Heiu-Jou (邵揮洲) Professor Personal Website
      $ cd /cygdrive/d/github/nmshaw
      $ pip install -r requirements.txt
 
-8. 產生 JavaScript 及 CSS 檔
+8. 安裝 pelican plugin：
+
+   .. code-block:: bash
+
+     $ cd /cygdrive/d/github/nmshaw
+     $ make download
+
+9. 產生 JavaScript 及 CSS 檔
 
    .. code-block:: bash
 
@@ -90,7 +97,7 @@ Shaw, Heiu-Jou (邵揮洲) Professor Personal Website
      $ make js
      $ make scss
 
-9. 產生整個網站：
+10. 產生整個網站：
 
    .. code-block:: bash
 
