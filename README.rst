@@ -99,13 +99,13 @@ Shaw, Heiu-Jou (邵揮洲) Professor Personal Website
 
 10. 產生整個網站：
 
-   .. code-block:: bash
+    .. code-block:: bash
 
-     $ cd /cygdrive/d/github/nmshaw
-     $ make
+      $ cd /cygdrive/d/github/nmshaw
+      $ make
 
-   用瀏覽器打開 `http://localhost:8000/ <http://localhost:8000/>`_
-   可看產生的網站。
+    用瀏覽器打開 `http://localhost:8000/ <http://localhost:8000/>`_
+    可看產生的網站。
 
 
 日常開發
