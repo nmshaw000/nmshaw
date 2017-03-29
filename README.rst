@@ -61,6 +61,13 @@ Shaw, Heiu-Jou (邵揮洲) Professor Personal Website
 
      $ easy_install-2.7 pip
 
+   移除有問題的套件：
+
+   .. code-block:: bash
+
+     $ pip uninstall stgit
+     $ pip uninstall bzr-fastimport
+
 5. 進入D槽，建立github資料夾：
 
    .. code-block:: bash
