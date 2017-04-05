@@ -10,6 +10,21 @@
 :og_image: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
 
 演講
+.. list-table::
+   :class: table is-bordered is-striped is-narrow
+
+   * - 授課日期
+     - 授課名稱
+     - 授課時數
+     - 備註欄
+   * - 2015/12/11
+     - 104學年度品德教育深耕計畫案活動－如何提升自我競爭力
+     - 2
+     - 邀請單位：國立高雄師範大學聯絡人：鄒愛華
+   * - 2015/11/24
+     - 中正大學職涯導師座談會－深耕職涯輔導座談
+     - 2
+     - 邀請單位：國立中正大學學務處職涯發展中心聯絡人：涂淑茹小姐聯絡電話：05-2720411#12206 專線：05-2722026
 
 .. list-table::
    :class: table is-bordered is-striped is-narrow
