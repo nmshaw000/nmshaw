@@ -9,6 +9,8 @@
 :summary: 個人榮譽與獎勵
 :og_image: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
 
+演講
+
 .. list-table::
    :class: table is-bordered is-striped is-narrow
 
@@ -24,6 +26,7 @@
      - 台南大學學習系列講座"規劃與時間管理"之講師
      - 
      - 邀請單位：國立台南大學
+
 
 .. list-table::
    :class: table is-bordered is-striped is-narrow
