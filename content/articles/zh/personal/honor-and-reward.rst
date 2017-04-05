@@ -9,17 +9,6 @@
 :summary: 個人榮譽與獎勵
 :og_image: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
 
-.. list-table::
-   :class: table is-bordered is-striped is-narrow
-
-   * - `Google <http://www.google.com/>`__
-     - b
-     - c
-
-   * - d
-     - e
-     - f
-
 
 .. list-table::
    :class: table is-bordered is-striped is-narrow
