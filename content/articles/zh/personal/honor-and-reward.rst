@@ -9,7 +9,21 @@
 :summary: 個人榮譽與獎勵
 :og_image: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
 
-testing
+.. list-table::
+   :class: table is-bordered is-striped is-narrow
+
+   * - 授課日期
+     - 授課名稱
+     - 授課時數
+     - 備註欄
+   * - 2016/12/10
+     - 2016淨塑護生救海洋研習會主持人
+     - 
+     - 邀請單位：福智文教基金會南區事業部文教處
+   * - 2016/11/16
+     - 台南大學學習系列講座"規劃與時間管理"之講師
+     - 
+     - 邀請單位：國立台南大學
 
 .. list-table::
    :class: table is-bordered is-striped is-narrow
