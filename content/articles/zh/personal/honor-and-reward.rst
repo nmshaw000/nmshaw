@@ -10,7 +10,7 @@
 :og_image: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
 
 
-.. image:: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
+.. image:: {filename}/extra/image/prof-shaw.jpg
    :align: center
    :alt: 老師的大頭照
 
