@@ -144,9 +144,9 @@ Shaw, Heiu-Jou (邵揮洲) Professor Personal Website
 參考
 ----
 
-.. [1] `7. 附录：轻量级标记语言 — GotGitHub <http://www.worldhello.net/gotgithub/appendix/markups.html>`_
+.. [1] | `7. 附录：轻量级标记语言 — GotGitHub <http://www.worldhello.net/gotgithub/appendix/markups.html>`_
        (`GitHub <https://github.com/gotgit/gotgithub/blob/master/appendix/markups.rst>`__)
-       |`Quick reStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_
+       | `Quick reStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_
 
 .. [2] `python - Installing Pip-3.2 on Cygwin - Stack Overflow <http://stackoverflow.com/a/30685412>`_
 
