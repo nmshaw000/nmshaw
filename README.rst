@@ -169,6 +169,9 @@ Shaw, Heiu-Jou (邵揮洲) Professor Personal Website
 
 .. [4] `Bulma: a modern CSS framework based on Flexbox <http://bulma.io/>`_
 
+.. [5] | `學長部落格(可點進去看原始碼) <https://siongui.github.io/>`_
+       | `學長部落格中文 <https://siongui.github.io/zh/>`_
+
 .. _Cygwin: https://www.cygwin.com/
 .. _Python: https://www.python.org/
 .. _git: https://git-scm.com/
