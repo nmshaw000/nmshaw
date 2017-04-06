@@ -9,12 +9,8 @@
 :summary: 個人榮譽與獎勵
 :og_image: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
 
-<<<<<<< HEAD
-2016演講
-=======
-個人簡介 – 經歷
 
-.. list-table::
+.. list-table:: 個人簡介 – 經歷
    :class: table is-bordered is-striped is-narrow
 
    * - 服務機關
@@ -63,10 +59,7 @@
      - 2014/02/27~2015/02/26
 
 
-演講
->>>>>>> 5fce72a2a77fd6aeeb8be9a6de86294edc842977
-
-.. list-table::
+.. list-table:: 演講
    :class: table is-bordered is-striped is-narrow
 
    * - 授課日期
@@ -98,9 +91,8 @@
      - 1.5
      - 邀請單位：國立成功大學醫學院附設醫院
 
-2015演講
 
-.. list-table::
+.. list-table:: 2015演講
    :class: table is-bordered is-striped is-narrow
 
    * - 授課日期
@@ -149,8 +141,6 @@
        聯絡人：陳亮琴
 
        聯絡電話 : (06)238-6501
-
-
 
 
 
