@@ -10,6 +10,10 @@
 :og_image: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
 
 
+.. image:: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
+   :align: center
+   :alt: 老師的大頭照
+
 .. list-table:: 個人簡介 – 經歷
    :class: table is-bordered is-striped is-narrow
 
