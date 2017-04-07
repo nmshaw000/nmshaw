@@ -11,6 +11,7 @@
 
 .. list-table:: 個人簡介 – 經歷
    :class: table is-bordered is-striped is-narrow
+   :header-rows: 1
 
    * - 服務機關
      - 服務單位
