@@ -4,6 +4,16 @@ $screen-mobile: 768;
   #menu-toggle:checked + .nav-menu {
     display: block;
   }
+
+  table.table {
+    th, td {
+      display: block;
+    }
+  }
+}
+
+table.table {
+  caption {font-size: 2rem;}
 }
 
 .main-content-section {

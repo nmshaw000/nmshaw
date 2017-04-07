@@ -11,6 +11,7 @@
 
 .. list-table:: 2016演講
    :class: table is-bordered is-striped is-narrow
+   :header-rows: 1
 
    * - 授課日期
      - 授課名稱
@@ -44,6 +45,7 @@
 
 .. list-table:: 2015演講
    :class: table is-bordered is-striped is-narrow
+   :header-rows: 1
 
    * - 授課日期
      - 授課名稱
