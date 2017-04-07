@@ -20,14 +20,6 @@ function PlaySequential() {
   Playing(spans, 0, 0);
 }
 
-function RemoveColgroup() {
-  var colgroups = document.querySelectorAll("colgroup");
-  for (var i = 0; i < colgroups.length; ++i) {
-    colgroups[i].remove();
-  }
-}
-
 document.addEventListener("DOMContentLoaded", function(event) {
   PlaySequential();
-  RemoveColgroup();
 });
