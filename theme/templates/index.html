@@ -1,7 +1,9 @@
 {% extends "layout/layout.html" %}
-{% block content %}
-{#% include "layout/includes/list_articles.html" %#}
+{% set index = (hidden_pages|hidden_pages_get_page_with_slug_index) %}
 
+{%- if index.og_image -%}{% set OG_IMAGE = index.og_image %}{%- endif -%}
+
+{% block content %}
 <section class="hero is-primary">
   <div class="hero-body">
     <div class="container">
@@ -19,68 +21,7 @@
 
 <section class="section">
   <div class="container content">
-    <h1 class="title">{{ '簡介'|gettext(DEFAULT_LANG) }}</h1>
-    <h2 class="subtitle">這裡放大約一百字的自我介紹</h2>
-
-
-    <h1 class="title">{{ '學歷'|gettext(DEFAULT_LANG) }}</h1>
-<table>
-  <tbody>
-    <tr>
-      <td>
-    <span class="link is-info">學士</span>
-      </td>
-      <td>
-    <span class="link is-info">造船系</span>
-      </td>
-      <td>
-    <span class="link is-info">成功大學</span>
-      </td>
-      <td>
-    <span class="link is-info">1975/9 ~ 1979/6</span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-    <span class="link is-info">碩士</span>
-      </td>
-      <td>
-    <span class="link is-info">造船所</span>
-      </td>
-      <td>
-    <span class="link is-info">台灣大學</span>
-      </td>
-      <td>
-    <span class="link is-info">1979/9 ~ 1981/6</span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-    <span class="link is-info">博士</span>
-      </td>
-      <td>
-    <span class="link is-info">機械所</span>
-      </td>
-      <td>
-    <span class="link is-info">成功大學</span>
-      </td>
-      <td>
-    <span class="link is-info">1984/9 ~ 1987/7</span>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-    <h1 class="title">{{ '代表著作'|gettext(DEFAULT_LANG) }}</h1>
-    <h2 class="subtitle">
-      <ul>
-        <li>代表著作一</li>
-        <li>代表著作二</li>
-        <li>代表著作三</li>
-      </ul>
-    </h2>
-
+     {{ index.content }}
   </div>
 </section>
-
 {% endblock %}
