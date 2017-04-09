@@ -26,6 +26,16 @@ table.table {
   background-color: mintcream;
 }
 
+table.is-second-column-font-larger {
+  tbody {
+    tr {
+      td:nth-of-type(2) {
+        font-size: larger;
+      }
+    }
+  }
+}
+
 @media screen {
   body {
     background-color: #c7edcc;

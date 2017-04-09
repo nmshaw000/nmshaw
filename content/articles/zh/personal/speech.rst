@@ -10,7 +10,7 @@
 
 
 .. list-table:: 2016演講
-   :class: table is-bordered is-striped is-narrow
+   :class: table is-bordered is-striped is-narrow is-second-column-font-larger
    :header-rows: 1
 
    * - 授課日期
