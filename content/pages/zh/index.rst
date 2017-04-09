@@ -24,8 +24,8 @@
    * - 職稱:
      - 教授 
 
-
-.. list-table:: 自我介紹
+..
+  .. list-table:: 自我介紹
    :class: table is-bordered is-striped is-narrow
 
 
