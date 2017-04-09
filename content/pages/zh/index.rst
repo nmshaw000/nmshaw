@@ -13,7 +13,7 @@
    :align: center
    :alt: 老師的大頭照
 
-.. list-table:: 連絡資訊
+.. list-table:: 基本資料
    :class: table is-bordered is-striped is-narrow
    :header-rows: 1
 
@@ -24,9 +24,35 @@
    * - 職稱:
      - 教授 
 
-..
-  .. list-table:: 自我介紹
+
+.. list-table:: 學歷
    :class: table is-bordered is-striped is-narrow
+   :header-rows: 1
+
+   * - 畢業學校
+     - 科系所
+     - 學位
+     - 起迄年月
+   * - 國立成功大學
+     - 機械所
+     - 博士
+     - 1984/9 ~ 1987/7
+   * - 國立台灣大學
+     - 造船所
+     - 碩士
+     - 1979/9 ~ 1981/6
+   * - 國立成功大學
+     - 造船系
+     - 學士
+     - 1975/9 ~ 1979/6
+
+
+.. list-table:: 自我介紹
+   :class: table is-bordered is-striped is-narrow
+   :header-rows: 1
+
+   * - 
+   * - 
 
 
 .. list-table:: 連絡資訊
