@@ -35,6 +35,12 @@ table.is-second-column-font-larger {
     }
   }
 }
+aside.menu {
+  font-size: 1.2rem;
+  p.menu-label {
+    font-size: 1em;
+  }
+}
 
 @media screen {
   body {
