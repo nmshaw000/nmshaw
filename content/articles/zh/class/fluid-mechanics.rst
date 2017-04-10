@@ -4,7 +4,7 @@
 
 :date: 2017-04-10
 :tags: Class
-:category: Class
+:category: fluid-mechanics
 :summary: 邵揮洲教授的課程4 - 流體力學
 :og_image: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
 

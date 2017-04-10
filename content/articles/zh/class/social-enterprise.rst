@@ -4,7 +4,7 @@
 
 :date: 2017-04-10
 :tags: Class
-:category: Class
+:category: social-enterprise
 :summary: 邵揮洲教授的課程3 - 社會企業
 :og_image: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
 

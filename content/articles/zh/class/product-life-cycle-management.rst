@@ -4,7 +4,7 @@
 
 :date: 2017-04-10
 :tags: Class
-:category: Class
+:category: product life cycle management
 :summary: 邵揮洲教授的課程2 - 產品生命週期管理
 :og_image: http://webap.rsh.ncku.edu.tw/public/articles/138-1-1407909051.jpg
 
