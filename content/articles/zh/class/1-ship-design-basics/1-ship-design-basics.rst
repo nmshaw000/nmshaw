@@ -26,6 +26,6 @@
 
 .. raw:: html
 
- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfS0V_MsA62yF2RluuceF7r1z5xLCjovZJh9g0HfYb1Cuxh_w/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+ <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfS0V_MsA62yF2RluuceF7r1z5xLCjovZJh9g0HfYb1Cuxh_w/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 
