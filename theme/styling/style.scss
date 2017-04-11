@@ -1,5 +1,6 @@
 $screen-mobile: 768;
 
+/* 在手機上table欄位會疊起來 */
 @media screen and (max-width: #{$screen-mobile}px) {
   #menu-toggle:checked + .nav-menu {
     display: block;
@@ -12,6 +13,7 @@ $screen-mobile: 768;
   }
 }
 
+/* table標題字體變大 */
 table.table {
   caption {font-size: 2rem;}
 }
@@ -26,6 +28,7 @@ table.table {
   background-color: mintcream;
 }
 
+/* table第二個column字體變大 */
 table.is-second-column-font-larger {
   tbody {
     tr {
@@ -36,6 +39,7 @@ table.is-second-column-font-larger {
   }
 }
 
+/* 改sidebar字體大小 */
 aside.menu {
   font-size: 1.2rem;
   p.menu-label {
@@ -43,6 +47,7 @@ aside.menu {
   }
 }
 
+/* responsive嵌入560x315的YouTube影片的CSS規則 */
 @media (max-width: 560px) {
   .youtube-container-ratio-dot-5625 {
     position: relative;
