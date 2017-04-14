@@ -14,7 +14,6 @@
 
 .. raw:: html
 
-
  <iframe width="560" height="315" src="https://www.youtube.com/embed/WPlowjoDIis" frameborder="0" allowfullscreen></iframe>
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/xrm5kHpmIxM" frameborder="0" allowfullscreen></iframe>
