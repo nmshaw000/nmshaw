@@ -14,10 +14,18 @@
 
 .. raw:: html
 
+ <div class="youtube-container-ratio-dot-5625">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/Xz6kLawoRHM" frameborder="0" allowfullscreen></iframe>
+ </div>
 
+ <div class="youtube-container-ratio-dot-5625">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/UDn9WKyj1Lg" frameborder="0" allowfullscreen></iframe>
+ </div>
 
+ <div class="youtube-container-ratio-dot-5625">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/w1YIWzXBj94" frameborder="0" allowfullscreen></iframe>
+ </div>
 
+ <div class="youtube-container-ratio-dot-5625">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/UqGwhoWCpqs" frameborder="0" allowfullscreen></iframe>
+ </div>

@@ -14,15 +14,25 @@
 
 .. raw:: html
 
+ <div class="youtube-container-ratio-dot-5625">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/Er1YK47aOTc" frameborder="0" allowfullscreen></iframe>
+ </div>
 
+ <div class="youtube-container-ratio-dot-5625">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/42iFGSht0DQ" frameborder="0" allowfullscreen></iframe>
+ </div>
 
+ <div class="youtube-container-ratio-dot-5625">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/OMZThRN32Y4" frameborder="0" allowfullscreen></iframe>
+ </div>
 
+ <div class="youtube-container-ratio-dot-5625">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/_YqibF0ZFCU" frameborder="0" allowfullscreen></iframe>
+ </div>
 
+ <div class="youtube-container-ratio-dot-5625">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/r-6Z8c9BLZA" frameborder="0" allowfullscreen></iframe>
+ </div>
 
 .. raw:: html
 
