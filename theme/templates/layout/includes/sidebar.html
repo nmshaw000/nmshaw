@@ -2,21 +2,21 @@
 <div class="container">
 <aside class="menu">
   <p class="menu-label">
-    個人
+    {{ '個人'|gettext(DEFAULT_LANG) }}
   </p>
   <ul class="menu-list">
     <li><a href="{{SITEURL}}/personal/experience/">{{ '經歷'|gettext(DEFAULT_LANG) }}</a></li>
     <li><a href="{{SITEURL}}/personal/speech/">{{ '演講'|gettext(DEFAULT_LANG) }}</a></li>
     <li><a href="{{SITEURL}}/personal/honor-and-reward/">{{ '榮譽與獎勵'|gettext(DEFAULT_LANG) }}</a></li>
   <p class="menu-label">
-    服務
+    {{ '服務'|gettext(DEFAULT_LANG) }}
   </p>
     <li><a href="{{SITEURL}}/personal/service/">{{ '協會相關'|gettext(DEFAULT_LANG) }}</a></li>
     <li><a>學校相關</a></li>
     <li><a>TTQS評核</a></li>
   </ul>
   <p class="menu-label">
-    研究工作
+    {{ '研究工作'|gettext(DEFAULT_LANG) }}
   </p>
   <ul class="menu-list">
     <li><a>期刊論文</a></li>
@@ -26,17 +26,16 @@
     <li><a>重點計畫</a></li>
   </ul>
   <p class="menu-label">
-    課程
+    <a href="{{SITEURL}}/class/class-frontpage/">{{ '課程'|gettext(DEFAULT_LANG) }}</a>
   </p>
   <ul class="menu-list">
-    <li><a href="{{SITEURL}}/class/class-first-page/">{{ '課程'|gettext(DEFAULT_LANG) }}</a></li>
     <li><a href="{{SITEURL}}/class/ship-design-basics/">{{ '船舶設計基礎'|gettext(DEFAULT_LANG) }}</a></li>
     <li><a href="{{SITEURL}}/class/product-life-cycle-management/">{{ '產品生命週期管理'|gettext(DEFAULT_LANG) }}</a></li>
     <li><a href="{{SITEURL}}/class/social-enterprise/">{{ '社會企業'|gettext(DEFAULT_LANG) }}</a></li>
     <li><a href="{{SITEURL}}/class/fluid-mechanics/">{{ '流體力學'|gettext(DEFAULT_LANG) }}</a></li>
   </ul>
   <p class="menu-label">
-    其他
+    {{ '其他'|gettext(DEFAULT_LANG) }}
   </p>
   <ul class="menu-list">
     <li><a>網站連結</a></li>
