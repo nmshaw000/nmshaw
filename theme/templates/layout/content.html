@@ -32,6 +32,17 @@
 {%- if content.summary -%}{% set OG_DESCRIPTION = (content.summary|striptags) %}{%- endif -%}
 
 {% block content %}
+<!-- Facebook留言JavaScript SDK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- End of Facebook留言JavaScript SDK -->
+
 <section class="hero is-primary">
   <div class="hero-body">
     <div class="container">
@@ -62,4 +73,13 @@
     <footer>{% block article_metadata %}{% endblock %}</footer>
   </div>
 </section>
+
+<!-- Facebook 留言位置 -->
+<section class="section">
+<div class="container">
+<div class="fb-comments" data-width="100%" data-numposts="5"></div>
+</div>
+</section>
+<!-- End of Facebook 留言位置 -->
+
 {% endblock %}
