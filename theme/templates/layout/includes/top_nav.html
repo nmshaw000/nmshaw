@@ -55,7 +55,9 @@
       <a class="nav-item is-hidden-tablet" href="{{SITEURL}}/class/class-frontpage/">{{ '課程'|gettext(DEFAULT_LANG) }}</a>
       {% if lang_siteurls %}
         {% for lang, url in lang_siteurls.items() %}
+        {% if lang != DEFAULT_LANG %}
         <a class="nav-item" href="{{ url }}/">{{ lang_code2name(lang) }}</a>
+        {% endif %}
         {% endfor %}
       {% endif %}
     </div>
